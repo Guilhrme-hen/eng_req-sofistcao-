@@ -3,8 +3,7 @@
  main(){
  
  int opcao,cpffuncionario,cpfcliente,codmerc,qntmerc;
- char nomefuncionario[50],nomecliente[50],nomemerc[50],ServoProd;
- bool endfuncionario[60],endcliente[60];
+ char nomefuncionario[50],nomecliente[50],nomemerc[50],ServoProd,endfuncionario[60],endcliente[60];
  printf ("Escolha uma opcao...\n");	
  printf ("[1] cadastro de funcionario\n");	
  printf ("[2] cadastro de cliente\n");	
@@ -25,7 +24,7 @@
 		printf ("informe o cpf: ");
  		scanf ("%i" ,&cpffuncionario);
  		printf ("informe o endereco: ");
- 		scanf ("%b" ,&endfuncionario);
+ 		scanf ("%s" ,&endfuncionario);
 printf ("funcionario %s cadastrado com sucesso", nomefuncionario); 
 
 	 case 2:
@@ -36,7 +35,7 @@ printf ("funcionario %s cadastrado com sucesso", nomefuncionario);
 		printf ("informe o cpf: ");
  		scanf ("%i" ,&cpfcliente);
  		printf ("informe o endereco: ");
- 		scanf ("%b" ,&endcliente);
+ 		scanf ("%s" ,&endcliente);
 printf ("cliente %s cadastrado com sucesso", nomecliente); 
 
 	case 3:
