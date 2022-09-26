@@ -2,7 +2,7 @@
 #include <stdlib.h> 
  main(){
  
- int opcao,cpffuncionario,cpfcliente,codmerc,qntmerc;
+ int opcao,cpffuncionario,cpfcliente,codmerc,qntmerc,mercpedido,pagamento;
  char nomefuncionario[50],nomecliente[50],nomemerc[50],ServoProd,endfuncionario[60],endcliente[60];
  printf ("Escolha uma opcao...\n");	
  printf ("[1] cadastro de funcionario\n");	
@@ -51,7 +51,16 @@ printf ("cliente %s cadastrado com sucesso", nomecliente);
  		scanf ("%c" ,&ServoProd);
 printf ("item %s cadastrado com sucesso",nomemerc); 
 
-//fazer o case 4 de pedido
+	case 4:
+	printf ("digite o cod da mercadoria: ");
+	scanf ("%i", &mercpedido);
+	printf ("%d" ,nomemerc);
+	printf ("digite o cpf do cliente: ");
+	scanf ("%i", &cpfcliente);
+	printf ("%s" ,nomecliente);
+	printf ("digite a opicao desejada\n[1] para cartao\n[2]para dinheiro\n[3]para pix");
+	
+	
 
 
 }
@@ -61,4 +70,3 @@ printf ("item %s cadastrado com sucesso",nomemerc);
  
  
  }
- 
