@@ -21,9 +21,11 @@
 		printf ("------cadasto de funcionario------\n");
 		printf ("digite o nome do funcionario: ");
 		scanf ("%s" ,&nomefuncionario);
+		printf ("\n");
 		printf ("informe o cpf: ");
  		scanf ("%i" ,&cpffuncionario);
- 		printf ("informe o endereco: ");
+ 		printf ("\n");
+		printf ("informe o endereco: ");
  		scanf ("%s" ,&endfuncionario);
 printf ("funcionario %s cadastrado com sucesso", nomefuncionario); 
 
@@ -31,11 +33,14 @@ printf ("funcionario %s cadastrado com sucesso", nomefuncionario);
  		
 		printf ("\n------cadasto de cliente-----\n");
 		printf ("digite o nome do cliente: ");
-		scanf ("%[^\n]" ,&nomecliente);
+		scanf ("%s" ,&nomecliente);
+		printf ("\n");
 		printf ("informe o cpf: ");
- 		scanf ("%i" ,&cpfcliente);
- 		printf ("informe o endereco: ");
+		scanf ("%i" ,&cpfcliente);
+ 		printf ("\n");
+		printf ("informe o endereco: ");
  		scanf ("%s" ,&endcliente);
+ 		printf ("\n");
 printf ("cliente %s cadastrado com sucesso", nomecliente); 
 
 	case 3:
@@ -43,30 +48,31 @@ printf ("cliente %s cadastrado com sucesso", nomecliente);
 		printf ("\n------cadasto de mercadoria-----\n");
 		printf ("digite o nome da mercadoria: ");
 		scanf ("%s" ,&nomemerc);
+		printf ("\n");
 		printf ("informe o cod da mercadoria: ");
  		scanf ("%i" ,&codmerc);
- 		printf ("informe a quantidade: ");
+ 		printf ("\n");
+		printf ("informe a quantidade: ");
  		scanf ("%i" ,&qntmerc);
-	 	printf ("informe [P] para produto e [S] para servico: ");
+	 	printf ("\n");
+		printf ("informe [P] para produto e [S] para servico: ");
  		scanf ("%c" ,&ServoProd);
+ 		printf ("\n");
 printf ("item %s cadastrado com sucesso",nomemerc); 
 
 	case 4:
 	printf ("digite o cod da mercadoria: ");
 	scanf ("%i", &mercpedido);
 	printf ("%d" ,nomemerc);
+	printf ("\n");
 	printf ("digite o cpf do cliente: ");
 	scanf ("%i", &cpfcliente);
 	printf ("%s" ,nomecliente);
+	printf ("\n");
 	printf ("digite a opicao desejada\n[1] para cartao\n[2]para dinheiro\n[3]para pix");
 	
 	
-
-
 }
 
 
- 
- 
- 
  }
