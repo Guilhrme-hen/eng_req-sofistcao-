@@ -55,14 +55,14 @@ do {
 	 		fflush(stdin);
 			printf ("informe o endereco: ");
 	 		scanf ("%[^\n]s" ,&endfuncionario);
-			printf ("\n\n");
-			printf ("funcionario %s cadastrado com sucesso\n", nomefuncionario);
+			printf ("\n");
+			printf ("funcionario %s cadastrado com sucesso\n\n", nomefuncionario);
 			system ("pause");
 
 	 case 2:
 	 		system ("cls");
 			printf("   _____  ____  ______ _____  _____ _______ _____ _____          ____  \n  / ____|/ __ \\|  ____|_   _|/ ____|__   __|_   _/ ____|   /\\   / __ \\   |                 __\n | (___ | |  | | |__    | | | (___    | |    | || |       /  \\ | |  | |  |                /\\/'-,\n  \\___ \\| |  | |  __|   | |  \\___ \\   | |    | || |      / /\\ \\| |  | |  |        ,--'''''   / \n  ____) | |__| | |     _| |_ ____) |  | |   _| || |____ / ____ \\ |__| |  |  ____,'.  )       \\___ \n |_____/ \\____/|_|    |_____|_____/   |_|  |_____\\_____/_/    \\_\\____/   | '''''''------'''''----- \n\n");
-			printf ("\n\n------cadasto de cliente-----\n");
+			printf ("------cadasto de cliente-----\n");
 			printf ("digite o nome do cliente: ");
 			scanf ("%s" ,&nomecliente);
 			printf ("\n");
@@ -81,7 +81,7 @@ do {
 	case 3:
 		system ("cls");
 		printf("   _____  ____  ______ _____  _____ _______ _____ _____          ____  \n  / ____|/ __ \\|  ____|_   _|/ ____|__   __|_   _/ ____|   /\\   / __ \\   |                 __\n | (___ | |  | | |__    | | | (___    | |    | || |       /  \\ | |  | |  |                /\\/'-,\n  \\___ \\| |  | |  __|   | |  \\___ \\   | |    | || |      / /\\ \\| |  | |  |        ,--'''''   / \n  ____) | |__| | |     _| |_ ____) |  | |   _| || |____ / ____ \\ |__| |  |  ____,'.  )       \\___ \n |_____/ \\____/|_|    |_____|_____/   |_|  |_____\\_____/_/    \\_\\____/   | '''''''------'''''----- \n\n");
-		printf ("\n\n------cadasto de mercadoria-----\n\n");
+		printf ("------cadasto de mercadoria-----\n\n");
 		printf ("digite o nome da mercadoria: ");
 		scanf ("%s" ,&nomemerc);
 		printf ("\n");
@@ -112,7 +112,7 @@ do {
 		scanf ("%i", &cpfcliente1);
 		fflush(stdin);
 		printf ("\n"); 
-		printf ("digite a forma de pagamento entre\ncartao\ndinheiro\npix\n");
+		printf ("digite a forma de pagamento entre\ncartao\ndinheiro\npix\n\n");
 		scanf("%s", &pagamento);
 		printf ("opicao escolida foi %s",pagamento);
 		
@@ -120,9 +120,11 @@ do {
 
 system ("cls");
 printf ("------ordem de servico/pedido------\n");
-printf ("nome do atendente %s\nnome do cliente %s\nservico/produto %s forma de pagamento",nomefuncionario,nomecliente,mercpedido,pagamento);
-
-printf ("deseja fazer novo cadastro\n[1] para sim\n[2] para nao");
+printf ("nome do atendente: %s\nnome do cliente: %s\nservico/produto: %s\nforma de pagamento: %s\n",nomefuncionario,nomecliente,mercpedido,pagamento);
+printf ("-------------------------------------\n");
+system ("pause");
+system ("cls");
+printf ("deseja fazer novo cadastro\n[1] para sim\n[2] para nao\n");
 
 scanf("%i",voltarmenu);
 
