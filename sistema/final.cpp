@@ -105,7 +105,7 @@ printf ("item %s cadastrado com sucesso\n",nomemerc);
 		scanf ("%i", &cpfcliente1);
 		fflush(stdin);
 		printf ("\n"); 
-		printf ("digite a forma de pagamento entre cartao\ndinheiro\npix\n");
+		printf ("digite a forma de pagamento entre\ncartao\ndinheiro\npix\n");
 		scanf("%s", &pagamento);
 		printf ("opicao escolida foi %s",pagamento);
 }
