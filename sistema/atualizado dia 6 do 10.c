@@ -42,41 +42,41 @@ do {
  	
  	switch (opcao) {
  		
- 		case 1:
-	 		system ("cls");
-			printf("   _____  ____  ______ _____  _____ _______ _____ _____          ____  \n  / ____|/ __ \\|  ____|_   _|/ ____|__   __|_   _/ ____|   /\\   / __ \\   |                 __\n | (___ | |  | | |__    | | | (___    | |    | || |       /  \\ | |  | |  |                /\\/'-,\n  \\___ \\| |  | |  __|   | |  \\___ \\   | |    | || |      / /\\ \\| |  | |  |        ,--'''''   / \n  ____) | |__| | |     _| |_ ____) |  | |   _| || |____ / ____ \\ |__| |  |  ____,'.  )       \\___ \n |_____/ \\____/|_|    |_____|_____/   |_|  |_____\\_____/_/    \\_\\____/   | '''''''------'''''----- \n\n");
-			printf ("------cadasto de funcionario------\n");
-			printf ("digite o nome do funcionario: ");
-			scanf ("%s" ,&nomefuncionario);
-			printf ("\n");
-			printf ("informe o cpf: ");
-	 		scanf ("%i" ,&cpffuncionario);
-	 		printf ("\n");
-	 		fflush(stdin);
-			printf ("informe o endereco: ");
-	 		scanf ("%[^\n]s" ,&endfuncionario);
-			printf ("\n");
-			printf ("funcionario %s cadastrado com sucesso\n\n", nomefuncionario);
-			system ("pause");
-
-	 case 2:
-	 		system ("cls");
-			printf("   _____  ____  ______ _____  _____ _______ _____ _____          ____  \n  / ____|/ __ \\|  ____|_   _|/ ____|__   __|_   _/ ____|   /\\   / __ \\   |                 __\n | (___ | |  | | |__    | | | (___    | |    | || |       /  \\ | |  | |  |                /\\/'-,\n  \\___ \\| |  | |  __|   | |  \\___ \\   | |    | || |      / /\\ \\| |  | |  |        ,--'''''   / \n  ____) | |__| | |     _| |_ ____) |  | |   _| || |____ / ____ \\ |__| |  |  ____,'.  )       \\___ \n |_____/ \\____/|_|    |_____|_____/   |_|  |_____\\_____/_/    \\_\\____/   | '''''''------'''''----- \n\n");
-			printf ("------cadasto de cliente-----\n");
-			printf ("digite o nome do cliente: ");
-			scanf ("%s" ,&nomecliente);
-			printf ("\n");
-			fflush(stdin);
-			printf ("informe o cpf: ");
-			scanf ("%i" ,&cpfcliente);
-	 		printf ("\n");
-	 		fflush(stdin);
-			printf ("informe o endereco: ");
-	 		scanf ("%s" ,&endcliente);
-	 		printf ("\n");
-	 		fflush(stdin);
-					printf ("cliente %s cadastrado com sucesso\n", nomecliente); 
-			system ("pause");
+	case 1:
+	 	system ("cls");
+		printf("   _____  ____  ______ _____  _____ _______ _____ _____          ____  \n  / ____|/ __ \\|  ____|_   _|/ ____|__   __|_   _/ ____|   /\\   / __ \\   |                 __\n | (___ | |  | | |__    | | | (___    | |    | || |       /  \\ | |  | |  |                /\\/'-,\n  \\___ \\| |  | |  __|   | |  \\___ \\   | |    | || |      / /\\ \\| |  | |  |        ,--'''''   / \n  ____) | |__| | |     _| |_ ____) |  | |   _| || |____ / ____ \\ |__| |  |  ____,'.  )       \\___ \n |_____/ \\____/|_|    |_____|_____/   |_|  |_____\\_____/_/    \\_\\____/   | '''''''------'''''----- \n\n");
+		printf ("------cadasto de funcionario------\n");
+		printf ("digite o nome do funcionario: ");
+		scanf ("%s" ,&nomefuncionario);
+		printf ("\n");
+		printf ("informe o cpf: ");
+	 	scanf ("%i" ,&cpffuncionario);
+	 	printf ("\n");
+	 	fflush(stdin);
+		printf ("informe o endereco: ");
+	 	scanf ("%[^\n]s" ,&endfuncionario);
+		printf ("\n");
+		printf ("funcionario %s cadastrado com sucesso\n\n", nomefuncionario);
+		system ("pause");
+	 
+	case 2:
+	 	system ("cls");
+		printf("   _____  ____  ______ _____  _____ _______ _____ _____          ____  \n  / ____|/ __ \\|  ____|_   _|/ ____|__   __|_   _/ ____|   /\\   / __ \\   |                 __\n | (___ | |  | | |__    | | | (___    | |    | || |       /  \\ | |  | |  |                /\\/'-,\n  \\___ \\| |  | |  __|   | |  \\___ \\   | |    | || |      / /\\ \\| |  | |  |        ,--'''''   / \n  ____) | |__| | |     _| |_ ____) |  | |   _| || |____ / ____ \\ |__| |  |  ____,'.  )       \\___ \n |_____/ \\____/|_|    |_____|_____/   |_|  |_____\\_____/_/    \\_\\____/   | '''''''------'''''----- \n\n");
+		printf ("------cadasto de cliente-----\n");
+		printf ("digite o nome do cliente: ");
+		scanf ("%s" ,&nomecliente);
+		printf ("\n");
+		fflush(stdin);
+		printf ("informe o cpf: ");
+		scanf ("%i" ,&cpfcliente);
+	 	printf ("\n");
+	 	fflush(stdin);
+		printf ("informe o endereco: ");
+	 	scanf ("%s" ,&endcliente);
+	 	printf ("\n");
+	 	fflush(stdin);
+		printf ("cliente %s cadastrado com sucesso\n", nomecliente); 
+		system ("pause");
 
 	case 3:
 		system ("cls");
@@ -87,22 +87,22 @@ do {
 		printf ("\n");
 		fflush(stdin);
 		printf ("informe o cod da mercadoria: ");
- 		scanf ("%i" ,&codmerc);
- 		printf ("\n");
- 		fflush(stdin);
+		scanf ("%i" ,&codmerc);
+		printf ("\n");
+		fflush(stdin);
 		printf ("informe a quantidade: ");
- 		scanf ("%i" ,&qntmerc);
-	 	printf ("\n");
-	 	fflush(stdin);
+		scanf ("%i" ,&qntmerc);
+		printf ("\n");
+		fflush(stdin);
 		printf ("informe [P] para produto e [S] para servico: ");
- 		scanf ("%c" ,&ServoProd);
- 		printf ("\n");
- 		fflush(stdin);
+		scanf ("%c" ,&ServoProd);
+		printf ("\n");
+		fflush(stdin);
 		printf ("item %s cadastrado com sucesso\n",nomemerc); 
 		system ("pause");
 	
 	case 4:
-	    system ("cls");
+	    	system ("cls");
 		printf("   _____  ____  ______ _____  _____ _______ _____ _____          ____  \n  / ____|/ __ \\|  ____|_   _|/ ____|__   __|_   _/ ____|   /\\   / __ \\   |                 __\n | (___ | |  | | |__    | | | (___    | |    | || |       /  \\ | |  | |  |                /\\/'-,\n  \\___ \\| |  | |  __|   | |  \\___ \\   | |    | || |      / /\\ \\| |  | |  |        ,--'''''   / \n  ____) | |__| | |     _| |_ ____) |  | |   _| || |____ / ____ \\ |__| |  |  ____,'.  )       \\___ \n |_____/ \\____/|_|    |_____|_____/   |_|  |_____\\_____/_/    \\_\\____/   | '''''''------'''''----- \n\n");
 		printf ("\n------pedido-----\n");
 		printf ("digite o nome da mercadoria: ");
